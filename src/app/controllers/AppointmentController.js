@@ -57,11 +57,11 @@ class AppointmentController {
     /**
      * Check Provider Id is equal User Id
      */
-    /* if (provider_id === req.userId) {
+    if (provider_id === req.userId) {
       return res.status(400).json({
         error: 'Appointment denied'
       });
-    } */
+    }
 
     /**
      * Check if is a provider
